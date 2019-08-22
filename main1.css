@@ -1,0 +1,181 @@
+/*body{
+	text-align:center;
+}
+header,section,footer,aside,nav,article,hgroup{
+	display:block;
+}
+#skin{
+	width:700px;
+	margin:10px auto;
+	padding:5px;
+	background:#FFE4E1;
+	border:4px solid black;
+	border-radius:10px;
+	
+}
+nav{
+	margin:5px 0px;
+}
+#button{
+	float:left;
+	width:70px;
+	height:22px;
+}
+#defaultBar{
+	position:relative;
+	float:left;
+	width:600px;
+	height:1px;
+	padding:2px;
+	background:yellow;
+}
+
+#progressBar{
+	position:absolute;
+	width:0px;
+	height:1px;
+	background:blue;
+}*/
+*{
+	margin:0px;
+
+	padding:0px;
+}
+#canvas1{
+	margin-top:10px;
+	padding-left:5px;
+	
+}
+#big_wrapper1{
+	max-width:1000px;
+	margin:20px 0px;
+	border-right:2px solid black;
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-box-flex:1;
+    background:-webkit-linear-gradient(left, #ffcccc, #e6ffe6);
+}
+#header1{
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	-webkit-box-flex:1;
+	background:-webkit-linear-gradient(left,  #ffb3ff,	#99ddff);
+	
+	}
+
+#h11{
+	
+	font:bold 80px TimesNewRoman;
+	margin:20px;
+	-webkit-border-radius:10px;
+	color:#ff0000; 
+    -webkit-box-flex:1;
+	text-align:center;
+	
+}
+#h21{
+	font:italic 30px TimesNewRoman;
+	padding-top:70px;
+	padding-right:170px;
+}
+header,section,footer,aside,nav,article{
+	display:block;
+}
+#navi{
+	
+	background:-webkit-linear-gradient(left, #ff6600, #000000);
+	color:white;
+	border-top:2px solid black;
+}
+#navi li{
+	display:inline-block;
+	list-style:none;
+	padding:5px;
+	font:bold 14px Tahoma;
+}
+#new_div{
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+}
+#main_section{
+	border:1px solid #ff4da6;
+	-webkit-box-flex:1;
+	margin:20px;
+	padding:20px;
+	background:-webkit-linear-gradient(top, #f2f2f2,#ccffcc);
+	font:bold 15px Arial;
+	
+	
+}
+#side_news{
+	border:1px solid red;
+	width:220px;
+	margin:20px 10px;
+	padding:30px;
+	background:-webkit-linear-gradient(top, #f2f2f2,#00e6e6);
+}
+#smart{
+	padding-top:20px;
+}
+#hot{
+	color: #ff0000;
+	font:bold 25px TimesNewRoman;
+}
+#foot{
+	text-align:right;
+}
+#hello{
+	color:red;
+	font-size:20px;
+	
+}
+#hess{
+	padding:5px;
+	
+}
+#aura{
+	color:red;
+}
+#ordered{
+	padding:10px;
+	font:bold 18px Tahoma;
+	color: 	 #660029;
+	
+}
+#footer{
+	border-top:solid 1px black;
+	padding:20px;
+	font:bold 14px Comic Sans MS;
+}
+#foot1{
+	text-align:right;
+}
+#login{
+	
+	padding:10px;
+	text-align:center;
+	border-bottom:solid 2px black;
+}
+#auri{
+	padding:25px;
+	font:bold 14px Arial;
+}
+#name{
+	padding:5px;
+	margin:10px;
+	font:bold 14px Arial;
+}
+#pass{
+	padding:5px;
+	margin:10px;
+	font:bold 14px Arial;
+	
+}
+#coc{
+	font:bold 14px Arial;
+	text-align:center;
+	margin:20px;
+	padding:10px;
+}
